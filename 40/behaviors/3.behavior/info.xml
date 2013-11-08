@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<info PGFVersion="0.19" GSCVersion="0.10.0">
+  <Interface>ChangeAttributeAction</Interface>
+  <ControllerClass>GSBehaviorViewController</ControllerClass>
+  <DisplayName>Change Attribute</DisplayName>
+  <DisplayIndex>0</DisplayIndex>
+</info>

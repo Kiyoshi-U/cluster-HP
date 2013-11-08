@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor id="id405322" PGFVersion="0.19" GSCVersion="0.10.0">
+  <attributes>
+    <text id="name">yes</text>
+    <real id="time">0</real>
+    <point id="position">
+      <real id="x">0</real>
+      <real id="y">0</real>
+    </point>
+    <size id="size">
+      <real id="width">150</real>
+      <real id="height">50</real>
+    </size>
+    <angle id="rotation">0</angle>
+    <color id="color">
+      <real id="red">1</real>
+      <real id="green">1</real>
+      <real id="blue">1</real>
+      <real id="alpha">1</real>
+    </color>
+    <image id="image">yes</image>
+    <text id="tags" />
+    <boolean id="preloadArt">true</boolean>
+  </attributes>
+  <behaviors>
+    <behavior id="id434753" class="RuleBehavior" enabled="true">
+      <attributes>
+        <text id="name" name="Name">Rule</text>
+        <text id="bundleName" name="Bundle Name">Rule.behavior</text>
+        <real id="compoundConditionKind" name="Compound Condition Kind">0</real>
+      </attributes>
+      <conditions>
+        <condition id="id901393" eventType="touch" pluginPredicateTypeIndex="0">
+          <attributes>
+            <index id="conditionType" name="Condition Type">0</index>
+          </attributes>
+          <predicate type="touch" conditionType="pressed">
+            <attributes />
+          </predicate>
+        </condition>
+        <condition id="id920213" eventType="mouse position" pluginPredicateTypeIndex="0">
+          <attributes>
+            <index id="conditionType" name="Condition Type">0</index>
+          </attributes>
+          <predicate type="mousePosition" conditionType="not over actor">
+            <attributes />
+          </predicate>
+        </condition>
+      </conditions>
+      <behaviors>
+        <behavior id="id130741" class="ChangeImageAction" enabled="true">
+          <attributes>
+            <text id="name" name="Name">Change Image</text>
+            <text id="bundleName" name="Bundle Name">ChangeImage.behavior</text>
+            <image id="image" name="Image">yespressed</image>
+          </attributes>
+        </behavior>
+      </behaviors>
+      <elseBehaviors>
+        <behavior id="id177707" class="ChangeImageAction" enabled="true">
+          <attributes>
+            <text id="name" name="Name">Change Image</text>
+            <text id="bundleName" name="Bundle Name">ChangeImage.behavior</text>
+            <image id="image" name="Image">yes</image>
+          </attributes>
+        </behavior>
+      </elseBehaviors>
+    </behavior>
+    <behavior id="id493889" class="RuleBehavior" enabled="true">
+      <attributes>
+        <text id="name" name="Name">Rule</text>
+        <text id="bundleName" name="Bundle Name">Rule.behavior</text>
+        <real id="compoundConditionKind" name="Compound Condition Kind">0</real>
+      </attributes>
+      <conditions>
+        <condition id="id229401" eventType="touch" pluginPredicateTypeIndex="0">
+          <attributes>
+            <index id="conditionType" name="Condition Type">0</index>
+          </attributes>
+          <predicate type="touch" conditionType="pressed">
+            <attributes />
+          </predicate>
+        </condition>
+      </conditions>
+      <behaviors>
+        <behavior id="id863474" class="RuleBehavior" enabled="true">
+          <attributes>
+            <text id="name" name="Name">sfx</text>
+            <text id="bundleName" name="Bundle Name">Rule.behavior</text>
+            <real id="compoundConditionKind" name="Compound Condition Kind">0</real>
+          </attributes>
+          <conditions>
+            <condition id="id530189" eventType="mouse button" pluginPredicateTypeIndex="0">
+              <attributes>
+                <index id="conditionType" name="Condition Type">1</index>
+                <text id="subjectAttribute" name="Subject Attribute">game.attributes.id917412</text>
+              </attributes>
+              <predicate type="number">
+                <attributes>
+                  <text id="operator">=</text>
+                  <real id="RHS">0</real>
+                </attributes>
+              </predicate>
+            </condition>
+          </conditions>
+          <behaviors>
+            <behavior id="id845649" class="PlaySoundAction" enabled="true">
+              <attributes>
+                <text id="name" name="Name">Play Sound</text>
+                <text id="bundleName" name="Bundle Name">PlaySound.behavior</text>
+                <sound id="soundName" name="Sound Name">poof</sound>
+                <boolean id="loop" name="Loop">false</boolean>
+                <boolean id="runToCompletion" name="Run To Completion">true</boolean>
+                <boolean id="positional" name="Positional">false</boolean>
+                <boolean id="dopplerShift" name="Doppler Shift">false</boolean>
+                <real id="volume" name="Volume">1</real>
+                <real id="pitch" name="Pitch">1</real>
+              </attributes>
+            </behavior>
+          </behaviors>
+          <elseBehaviors />
+        </behavior>
+        <behavior id="id663942" class="ChangeAttributeAction" enabled="true">
+          <attributes>
+            <text id="name">Change Attribute</text>
+            <text id="bundleName">ChangeAttribute.behavior</text>
+            <text id="targetAttribute">game.attributes.id146270</text>
+            <text id="RHS">false</text>
+          </attributes>
+        </behavior>
+        <behavior id="id653597" class="ChangeAttributeAction" enabled="true">
+          <attributes>
+            <text id="name" name="Name">Change Attribute</text>
+            <text id="bundleName" name="Bundle Name">ChangeAttribute.behavior</text>
+            <text id="targetAttribute" name="Target Attribute">game.attributes.id619063</text>
+            <text id="RHS" name="RHS">true</text>
+          </attributes>
+        </behavior>
+        <behavior id="id672566" class="ResetSceneAction" enabled="true">
+          <attributes>
+            <text id="name">Reset Scene</text>
+            <text id="bundleName">ResetScene.behavior</text>
+            <boolean id="enableAdvertisement">false</boolean>
+          </attributes>
+        </behavior>
+      </behaviors>
+      <elseBehaviors />
+    </behavior>
+    <behavior id="id214906" class="RuleBehavior" enabled="true">
+      <attributes>
+        <text id="name" name="Name">Rule</text>
+        <text id="bundleName" name="Bundle Name">Rule.behavior</text>
+        <real id="compoundConditionKind" name="Compound Condition Kind">0</real>
+      </attributes>
+      <conditions>
+        <condition id="id687321" eventType="mouse button" pluginPredicateTypeIndex="0">
+          <attributes>
+            <index id="conditionType" name="Condition Type">1</index>
+            <text id="subjectAttribute" name="Subject Attribute">game.attributes.id146270</text>
+          </attributes>
+          <predicate type="boolean">
+            <attributes>
+              <index id="RHS">1</index>
+            </attributes>
+          </predicate>
+        </condition>
+      </conditions>
+      <behaviors>
+        <behavior id="id346201" class="RuleBehavior" enabled="true">
+          <attributes>
+            <text id="name" name="Name">sfx</text>
+            <text id="bundleName" name="Bundle Name">Rule.behavior</text>
+            <real id="compoundConditionKind" name="Compound Condition Kind">0</real>
+          </attributes>
+          <conditions>
+            <condition id="id530189" eventType="mouse button" pluginPredicateTypeIndex="0">
+              <attributes>
+                <index id="conditionType" name="Condition Type">1</index>
+                <text id="subjectAttribute" name="Subject Attribute">game.attributes.id917412</text>
+              </attributes>
+              <predicate type="number">
+                <attributes>
+                  <text id="operator">=</text>
+                  <real id="RHS">0</real>
+                </attributes>
+              </predicate>
+            </condition>
+          </conditions>
+          <behaviors>
+            <behavior id="id845649" class="PlaySoundAction" enabled="true">
+              <attributes>
+                <text id="name" name="Name">Play Sound</text>
+                <text id="bundleName" name="Bundle Name">PlaySound.behavior</text>
+                <sound id="soundName" name="Sound Name">woosh</sound>
+                <boolean id="loop" name="Loop">false</boolean>
+                <boolean id="runToCompletion" name="Run To Completion">true</boolean>
+                <boolean id="positional" name="Positional">false</boolean>
+                <boolean id="dopplerShift" name="Doppler Shift">false</boolean>
+                <real id="volume" name="Volume">1</real>
+                <real id="pitch" name="Pitch">1</real>
+              </attributes>
+            </behavior>
+          </behaviors>
+          <elseBehaviors />
+        </behavior>
+        <behavior id="id384064" class="InterpolateBehavior" enabled="true">
+          <attributes>
+            <text id="name" name="Name">Interpolate</text>
+            <text id="bundleName" name="Bundle Name">Interpolate.behavior</text>
+            <boolean id="runToCompletion" name="Run To Completion">true</boolean>
+            <text id="targetAttribute" name="Target Attribute">self.attributes.position.x</text>
+            <real id="finalValue" name="Final Value">140</real>
+            <real id="duration" name="Duration">0.3</real>
+            <index id="easing" name="Easing">0</index>
+          </attributes>
+        </behavior>
+        <behavior id="id779332" class="TimerBehavior" enabled="true">
+          <attributes>
+            <text id="name" name="Name">Timer</text>
+            <text id="bundleName" name="Bundle Name">Timer.behavior</text>
+            <index id="timerType" name="Timer Type">1</index>
+            <real id="interval" name="Interval">0.4</real>
+            <boolean id="runToCompletion" name="Run To Completion">true</boolean>
+          </attributes>
+          <behaviors>
+            <behavior id="id344234" class="InterpolateBehavior" enabled="true">
+              <attributes>
+                <text id="name" name="Name">Interpolate</text>
+                <text id="bundleName" name="Bundle Name">Interpolate.behavior</text>
+                <boolean id="runToCompletion" name="Run To Completion">true</boolean>
+                <text id="targetAttribute" name="Target Attribute">self.attributes.position.x</text>
+                <real id="finalValue" name="Final Value">160</real>
+                <real id="duration" name="Duration">0.1</real>
+                <index id="easing" name="Easing">0</index>
+              </attributes>
+            </behavior>
+          </behaviors>
+        </behavior>
+      </behaviors>
+      <elseBehaviors>
+        <behavior id="id601571" class="ChangeAttributeAction" enabled="true">
+          <attributes>
+            <text id="name" name="Name">Change Attribute</text>
+            <text id="bundleName" name="Bundle Name">ChangeAttribute.behavior</text>
+            <text id="targetAttribute" name="Target Attribute">self.attributes.position.x</text>
+            <text id="RHS" name="RHS">720</text>
+          </attributes>
+        </behavior>
+      </elseBehaviors>
+    </behavior>
+  </behaviors>
+  <aspects>
+    <graphics>
+      <attributes>
+        <boolean id="visible">true</boolean>
+        <enumeration id="blendingMode">0</enumeration>
+        <enumeration id="horizontalWrap">0</enumeration>
+        <enumeration id="verticalWrap">0</enumeration>
+        <enumeration id="horizontalAnchor">0</enumeration>
+        <enumeration id="verticalAnchor">0</enumeration>
+        <boolean id="flipHorizontally">false</boolean>
+        <boolean id="flipVertically">false</boolean>
+        <integer id="tileWidth">150</integer>
+        <integer id="tileHeight">50</integer>
+      </attributes>
+    </graphics>
+    <motion>
+      <attributes>
+        <point id="linearVelocity">
+          <real id="x">0</real>
+          <real id="y">0</real>
+        </point>
+        <real id="angularVelocity">0</real>
+        <real id="maxSpeed">0</real>
+        <boolean id="applyMaxSpeed">false</boolean>
+      </attributes>
+    </motion>
+    <physics>
+      <attributes>
+        <real id="density">1</real>
+        <real id="friction">3</real>
+        <real id="restitution">1</real>
+        <boolean id="fixedRotation">false</boolean>
+        <boolean id="movable">true</boolean>
+        <enumeration id="collisionShape">0</enumeration>
+        <real id="drag">0</real>
+        <real id="angularDrag">0</real>
+      </attributes>
+    </physics>
+  </aspects>
+</actor>

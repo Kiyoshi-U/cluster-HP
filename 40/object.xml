@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<game title="Piyoyo.ADV" GSCVersion="0.10.0" PGFVersion="0.19">
+  <tags>santa Claus, Santa, Santa Adventure, christmas, mario, super mario, talking santa, Santa ADV, Santa</tags>
+  <resolutionIndependence>1</resolutionIndependence>
+  <instructions />
+  <resolution>0</resolution>
+  <longDescription>Stop Snow Monsters from Stopping Santa!
+They stole the gifts and his sleigh, and they also imprisoned the poor hopeless  reindeers in cages!!
+Santa needs your help fighting off the evil snow monsters, release the reindeers, and find his sleigh, and most of all retrieving the stolen gifts!!
+
+Written by: MARAM</longDescription>
+  <prototypes>
+    <actor id="id911465" />
+    <actor id="id189225" />
+    <actor id="id828671" />
+    <actor id="id992689" />
+    <actor id="id158770" />
+    <actor id="id957056" />
+    <actor id="id323784" />
+    <actor id="id391493" />
+    <actor id="id117673" />
+    <actor id="id229492" />
+    <actor id="id207847" />
+    <actor id="id986176" />
+    <actor id="id583629" />
+    <actor id="id478941" />
+    <actor id="id502758" />
+    <actor id="id623257" />
+    <actor id="id503894" />
+    <actor id="id158301" />
+    <actor id="id856212" />
+    <actor id="id264687" />
+    <actor id="id210007" />
+    <actor id="id111824" />
+    <actor id="id123753" />
+    <actor id="id115176" />
+    <actor id="id672106" />
+    <actor id="id616261" />
+    <actor id="id548614" />
+    <actor id="id778848" />
+    <actor id="id156164" />
+    <actor id="id236126" />
+    <actor id="id789462" />
+    <actor id="id213960" />
+    <actor id="id690295" />
+    <actor id="id154873" />
+    <actor id="id766333" />
+    <actor id="id194701" />
+    <actor id="id948538" />
+    <actor id="id757848" />
+    <actor id="id608923" />
+    <actor id="id360866" />
+    <actor id="id871418" />
+    <actor id="id258112" />
+    <actor id="id828483" />
+    <actor id="id840976" />
+    <actor id="id610795" />
+    <actor id="id724917" />
+    <actor id="id342710" />
+    <actor id="id333850" />
+    <actor id="id338039" />
+    <actor id="id193800" />
+    <actor id="id141931" />
+    <actor id="id714707" />
+    <actor id="id584827" />
+    <actor id="id937568" />
+    <actor id="id763610" />
+    <actor id="id603803" />
+    <actor id="id991354" />
+    <actor id="id967919" />
+    <actor id="id835147" />
+    <actor id="id889903" />
+    <actor id="id286660" />
+    <actor id="id828359" />
+    <actor id="id110945" />
+    <actor id="id932954" />
+    <actor id="id232538" />
+    <actor id="id146017" />
+    <actor id="id508626" />
+    <actor id="id961023" />
+    <actor id="id630107" />
+    <actor id="id417182" />
+    <actor id="id225026" />
+    <actor id="id164402" />
+    <actor id="id360690" />
+    <actor id="id905182" />
+    <actor id="id415922" />
+    <actor id="id567820" />
+    <actor id="id201577" />
+    <actor id="id570295" />
+    <actor id="id500359" />
+    <actor id="id695144" />
+    <actor id="id509585" />
+    <actor id="id732719" />
+    <actor id="id948809" />
+    <actor id="id326183" />
+    <actor id="id862584" />
+    <actor id="id486957" />
+    <actor id="id228648" />
+    <actor id="id205619" />
+    <actor id="id572398" />
+    <actor id="id884410" />
+    <actor id="id783132" />
+    <actor id="id379105" />
+    <actor id="id376125" />
+    <actor id="id869905" />
+    <actor id="id308758" />
+    <actor id="id158470" />
+    <actor id="id531369" />
+    <actor id="id900313" />
+    <actor id="id341852" />
+    <actor id="id705476" />
+    <actor id="id127079" />
+    <actor id="id474109" />
+    <actor id="id938697" />
+    <actor id="id525306" />
+    <actor id="id447421" />
+    <actor id="id268237" />
+    <actor id="id955491" />
+    <actor id="id284172" />
+    <actor id="id172215" />
+    <actor id="id696826" />
+    <actor id="id584634" />
+    <actor id="id840984" />
+    <actor id="id317910" />
+    <actor id="id825286" />
+    <actor id="id409120" />
+    <actor id="id727647" />
+    <actor id="id920786" />
+    <actor id="id546859" />
+    <actor id="id145814" />
+    <actor id="id406263" />
+    <actor id="id399195" />
+    <actor id="id405322" />
+    <actor id="id145662" />
+    <actor id="id715740" />
+    <actor id="id545787" />
+    <actor id="id435248" />
+    <actor id="id865808" />
+    <actor id="id882005" />
+    <actor id="id512932" />
+    <actor id="id462737" />
+    <actor id="id375270" />
+    <actor id="id416966" />
+    <actor id="id814873" />
+    <actor id="id581522" />
+    <actor id="id719173" />
+    <actor id="id639090" />
+    <actor id="id992084" />
+    <actor id="id990438" />
+    <actor id="id860214" />
+    <actor id="id980581" />
+    <actor id="id604351" />
+    <actor id="id761181" />
+    <actor id="id978589" />
+    <actor id="id780525" />
+    <actor id="id146476" />
+    <actor id="id117862" />
+    <actor id="id346826" />
+    <actor id="id865797" />
+    <actor id="id884011" />
+    <actor id="id850772" />
+    <actor id="id408288" />
+    <actor id="id330263" />
+    <actor id="id256039" />
+    <actor id="id247055" />
+    <actor id="id998829" />
+    <actor id="id259235" />
+    <actor id="id860553" />
+    <actor id="id296271" />
+    <actor id="id926754" />
+    <actor id="id685992" />
+    <actor id="id139676" />
+    <actor id="id198906" />
+    <actor id="id196401" />
+    <actor id="id869692" />
+    <actor id="id768595" />
+    <actor id="id637406" />
+    <actor id="id291830" />
+    <actor id="id674512" />
+    <actor id="id537319" />
+    <actor id="id134495" />
+    <actor id="id667577" />
+    <actor id="id721002" />
+    <actor id="id435003" />
+    <actor id="id908019" />
+  </prototypes>
+  <plugins>
+    <attributes id="playhaven" />
+    <attributes id="qqgamecenter">
+      <boolean id="enabled">false</boolean>
+    </attributes>
+    <attributes id="kiip">
+      <text id="appKey" />
+      <text id="appSecret" />
+      <text id="achievementIdentifiers" />
+      <text id="achievementNames" />
+      <text id="leaderboardIdentifiers" />
+      <text id="leaderboardNames" />
+    </attributes>
+    <attributes id="tapMe">
+      <integer id="gameID">0</integer>
+      <text id="augmentIdentifiers" />
+      <text id="augmentNames" />
+      <text id="augmentCategoryIds" />
+      <integer id="activeAugmentID">0</integer>
+    </attributes>
+  </plugins>
+  <scenes>
+    <scene id="id863697" />
+    <scene id="id100507" />
+    <scene id="id480785" />
+    <scene id="id269551" />
+    <scene id="id387120" />
+    <scene id="id489946" />
+    <scene id="id783271" />
+    <scene id="id359012" />
+    <scene id="id752774" />
+    <scene id="id484385" />
+    <scene id="id841385" />
+    <scene id="id680811" />
+    <scene id="id578423" />
+    <scene id="id132302" />
+    <scene id="id744958" />
+    <scene id="id705587" />
+    <scene id="id585739" />
+    <scene id="id684333" />
+    <scene id="id830088" />
+    <scene id="id292320" />
+    <scene id="id188669" />
+    <scene id="id506873" />
+    <scene id="id495906" />
+    <scene id="id774926" />
+    <scene id="id708347" />
+  </scenes>
+  <attributes>
+    <text id="name">デフォルトネーム</text>
+    <real id="time">0</real>
+    <size id="displaySize">
+      <real id="width">480</real>
+      <real id="height">320</real>
+    </size>
+    <text id="actorTags">player collide	platforms</text>
+    <boolean id="id169931" name="moveLeft">false</boolean>
+    <boolean id="id939963" name="moveRight">false</boolean>
+    <boolean id="id868882" name="Jump">false</boolean>
+    <integer id="id838232" name="Platform Friction">300</integer>
+    <integer id="id140958" name="platforCount">0</integer>
+    <integer id="id942910" name="playerswidth">18</integer>
+    <integer id="id894913" name="PlayersHight">36</integer>
+    <real id="id833375" name="playersX">0</real>
+    <real id="id433352" name="Playersy">0</real>
+    <integer id="id796441" name="score">0</integer>
+    <integer id="id988482" name="life">10</integer>
+    <integer id="id423386" name="Level Unlocked">1</integer>
+    <integer id="id857444" name="Level 1 stars">0</integer>
+    <boolean id="id143612" name="reset level">false</boolean>
+    <boolean id="id813582" name="level complete">false</boolean>
+    <boolean id="id619063" name="ARE YOU SURE reset">false</boolean>
+    <boolean id="id146270" name="resetstats">false</boolean>
+    <integer id="id982784" name="musiconoff">0</integer>
+    <integer id="id917412" name="sfxonoff">0</integer>
+    <real id="id790615" name="touchx">0</real>
+    <real id="id332626" name="releasex">0</real>
+    <real id="id804611" name="Release">0</real>
+    <real id="id618824" name="touch">0</real>
+    <integer id="id320309" name="Level 2 stars">0</integer>
+    <integer id="id736309" name="Level 3 stars">0</integer>
+    <integer id="id162273" name="Level 4 stars">0</integer>
+    <integer id="id882227" name="Level 5 stars">0</integer>
+    <integer id="id106104" name="Level 6 stars">0</integer>
+    <integer id="id502497" name="Level 7 stars">0</integer>
+    <integer id="id382705" name="Level 8 stars">0</integer>
+    <integer id="id372961" name="Level 9 stars">0</integer>
+    <integer id="id158768" name="Level 10 stars">0</integer>
+    <integer id="id293401" name="Level 11 stars">0</integer>
+    <integer id="id508564" name="Level 12 stars">0</integer>
+    <integer id="id761018" name="Level 13 stars">0</integer>
+    <integer id="id393855" name="Level 14 stars">0</integer>
+    <integer id="id690788" name="Level 15 stars">0</integer>
+    <integer id="id754248" name="Level 16 stars">0</integer>
+    <integer id="id789852" name="Level 17 stars">0</integer>
+    <integer id="id519586" name="Level 18 stars">0</integer>
+    <integer id="id939861" name="Level 19 stars">0</integer>
+    <integer id="id369376" name="Level 20 stars">0</integer>
+    <boolean id="id348541" name="lock_cage1_open">false</boolean>
+    <boolean id="id199182" name="key">false</boolean>
+    <integer id="id288257" name="scor4all">0</integer>
+    <boolean id="id258112" name="SantaGrounded">true</boolean>
+    <boolean id="id847353" name="SantaDaid">false</boolean>
+    <boolean id="id701784" name="MusicOff">false</boolean>
+    <boolean id="id931397" name="options">false</boolean>
+    <boolean id="id321250" name="message1">false</boolean>
+    <integer id="id103030" name="s_Destance_m">0</integer>
+    <integer id="id852519" name="Santa_X">0</integer>
+    <integer id="id228897" name="Santa_Y">0</integer>
+    <boolean id="id351949" name="Santa_after_monster">false</boolean>
+    <boolean id="id792216" name="BackOfDoneTutched">false</boolean>
+    <boolean id="id894050" name="woodRotat">false</boolean>
+    <boolean id="id412083" name="Santa_In_Water">false</boolean>
+    <boolean id="id678703" name="Rock_Pressed">false</boolean>
+    <boolean id="id428605" name="SwichON">false</boolean>
+    <boolean id="id986617" name="GearON">false</boolean>
+    <integer id="id544191" name="KnifeRoof_1_Position">0</integer>
+    <integer id="id143506" name="KnifeRoof_2_Position">0</integer>
+    <integer id="id664544" name="KnifeRoof_3_Position">0</integer>
+    <integer id="id968621" name="KnifeRoof_4_Position">0</integer>
+    <integer id="id216225" name="KnifeRoof_5_Position">0</integer>
+    <integer id="id934487" name="KnifeRoof_6_Position">0</integer>
+    <integer id="id742730" name="KnifeRoof_7_Posision">0</integer>
+    <boolean id="id179351" name="GmGMah_Pressed">false</boolean>
+    <integer id="id488478" name="GateTime">38</integer>
+    <integer id="id768348" name="GiftCountDown">100</integer>
+    <integer id="id243340" name="cartPosition">0</integer>
+    <boolean id="id674935" name="gameend">false</boolean>
+    <integer id="id320281" name="Nposition">0</integer>
+    <boolean id="id736920" name="Puese">false</boolean>
+  </attributes>
+</game>

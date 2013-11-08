@@ -1,0 +1,845 @@
+<?xml version="1.0" encoding="utf-8"?>
+<assets PGFVersion="0.19" GSCVersion="0.10.0">
+  <sounds>
+    <music name="cccc">
+      <file name="cccc.m4a" size="249279" />
+    </music>
+    <music name="caveBackGround4">
+      <file name="caveBackGround4.m4a" size="236311" />
+    </music>
+    <music name="Intro3">
+      <file name="Intro3.m4a" size="539499" />
+    </music>
+    <sound name="goal2">
+      <file name="goal2.ogg" size="36276" />
+    </sound>
+    <sound name="poof">
+      <file name="poof.ogg" size="7735" />
+    </sound>
+    <sound name="woosh">
+      <file name="woosh.ogg" size="6965" />
+    </sound>
+    <sound name="click2">
+      <file name="click2.ogg" size="7810" />
+    </sound>
+    <sound name="Grunts Male">
+      <file name="Grunts Male.ogg" size="7898" />
+    </sound>
+    <sound name="CageDoorOpen">
+      <file name="CageDoorOpen.ogg" size="7420" />
+    </sound>
+    <sound name="DropClick">
+      <file name="DropClick.ogg" size="6089" />
+    </sound>
+    <sound name="IceArrow">
+      <file name="IceArrow.ogg" size="8148" />
+    </sound>
+    <sound name="GateOpen">
+      <file name="GateOpen.ogg" size="27498" />
+    </sound>
+    <sound name="IceBall">
+      <file name="IceBall.ogg" size="12854" />
+    </sound>
+    <sound name="IceRock">
+      <file name="IceRock.ogg" size="12251" />
+    </sound>
+    <sound name="LockOpen">
+      <file name="LockOpen.ogg" size="7677" />
+    </sound>
+    <sound name="logo">
+      <file name="logo.ogg" size="26150" />
+    </sound>
+    <sound name="star3">
+      <file name="star3.ogg" size="9864" />
+    </sound>
+    <sound name="key2">
+      <file name="key2.ogg" size="7727" />
+    </sound>
+    <sound name="done">
+      <file name="done.ogg" size="39051" />
+    </sound>
+    <sound name="RockButton">
+      <file name="RockButton.ogg" size="13730" />
+    </sound>
+    <sound name="SantaWater">
+      <file name="SantaWater.ogg" size="17764" />
+    </sound>
+    <sound name="Rema7Down">
+      <file name="Rema7Down.ogg" size="11435" />
+    </sound>
+    <sound name="Rema7Up">
+      <file name="Rema7Up.ogg" size="9262" />
+    </sound>
+    <sound name="GearChang">
+      <file name="GearChang.ogg" size="15678" />
+    </sound>
+    <sound name="GearLoop">
+      <file name="GearLoop.ogg" size="6754" />
+    </sound>
+    <sound name="GearShift">
+      <file name="GearShift.ogg" size="7870" />
+    </sound>
+    <sound name="CartGate">
+      <file name="CartGate.ogg" size="25453" />
+    </sound>
+    <sound name="Clock">
+      <file name="Clock.ogg" size="4755" />
+    </sound>
+    <sound name="cart">
+      <file name="cart.ogg" size="31806" />
+    </sound>
+    <sound name="heart">
+      <file name="heart.ogg" size="12622" />
+    </sound>
+    <sound name="HitCart">
+      <file name="HitCart.ogg" size="11222" />
+    </sound>
+    <sound name="deers">
+      <file name="deers.ogg" size="53473" />
+    </sound>
+  </sounds>
+  <images>
+    <image name="stand R">
+      <file name="stand R.png" size="24680" />
+    </image>
+    <image name="L1">
+      <file name="L1.png" size="27175" />
+    </image>
+    <image name="L2">
+      <file name="L2.png" size="26210" />
+    </image>
+    <image name="L3">
+      <file name="L3.png" size="26248" />
+    </image>
+    <image name="L4">
+      <file name="L4.png" size="26829" />
+    </image>
+    <image name="L5">
+      <file name="L5.png" size="27086" />
+    </image>
+    <image name="L7">
+      <file name="L7.png" size="26269" />
+    </image>
+    <image name="L8">
+      <file name="L8.png" size="25857" />
+    </image>
+    <image name="L6">
+      <file name="L6.png" size="27041" />
+    </image>
+    <image name="R2">
+      <file name="R2.png" size="25857" />
+    </image>
+    <image name="R1">
+      <file name="R1.png" size="26852" />
+    </image>
+    <image name="R4">
+      <file name="R4.png" size="26404" />
+    </image>
+    <image name="R3">
+      <file name="R3.png" size="25800" />
+    </image>
+    <image name="R5">
+      <file name="R5.png" size="26784" />
+    </image>
+    <image name="R6">
+      <file name="R6.png" size="26926" />
+    </image>
+    <image name="R7">
+      <file name="R7.png" size="25926" />
+    </image>
+    <image name="R8">
+      <file name="R8.png" size="25491" />
+    </image>
+    <image name="gift">
+      <file name="gift.png" size="10780" />
+    </image>
+    <image name="levelcompstars">
+      <file name="levelcompstars.png" size="5954" />
+    </image>
+    <image name="Monster_Ice_Ball002">
+      <file name="Monster_Ice_Ball002.png" size="7213" />
+    </image>
+    <image name="Monster_Ice_Ball001">
+      <file name="Monster_Ice_Ball001.png" size="7850" />
+    </image>
+    <image name="stand L">
+      <file name="stand L.png" size="25021" />
+    </image>
+    <image name="wellDone">
+      <file name="wellDone.png" size="177310" />
+    </image>
+    <image name="menu">
+      <file name="menu.png" size="13347" />
+    </image>
+    <image name="menupressed">
+      <file name="menupressed.png" size="13035" />
+    </image>
+    <image name="next">
+      <file name="next.png" size="15764" />
+    </image>
+    <image name="nextpressed">
+      <file name="nextpressed.png" size="16219" />
+    </image>
+    <image name="lvl1stars">
+      <file name="lvl1stars.png" size="7882" />
+    </image>
+    <image name="lvllocked">
+      <file name="lvllocked.png" size="9636" />
+    </image>
+    <image name="lvl0stars">
+      <file name="lvl0stars.png" size="7037" />
+    </image>
+    <image name="lvl2stars">
+      <file name="lvl2stars.png" size="8087" />
+    </image>
+    <image name="lvl3stars">
+      <file name="lvl3stars.png" size="8141" />
+    </image>
+    <image name="M01">
+      <file name="M01.png" size="37116" />
+    </image>
+    <image name="M02">
+      <file name="M02.png" size="39666" />
+    </image>
+    <image name="M03">
+      <file name="M03.png" size="38592" />
+    </image>
+    <image name="M04">
+      <file name="M04.png" size="47435" />
+    </image>
+    <image name="M05">
+      <file name="M05.png" size="39975" />
+    </image>
+    <image name="gift02">
+      <file name="gift02.png" size="7640" />
+    </image>
+    <image name="gift03">
+      <file name="gift03.png" size="8097" />
+    </image>
+    <image name="pasket">
+      <file name="pasket.png" size="17317" />
+    </image>
+    <image name="ice_boom">
+      <file name="ice_boom.png" size="10921" />
+    </image>
+    <image name="ice_boom2">
+      <file name="ice_boom2.png" size="12615" />
+    </image>
+    <image name="ice_boom3">
+      <file name="ice_boom3.png" size="14075" />
+    </image>
+    <image name="ice_boom4">
+      <file name="ice_boom4.png" size="6195" />
+    </image>
+    <image name="IceBall001">
+      <file name="IceBall001.png" size="30627" />
+    </image>
+    <image name="ICE_L1">
+      <file name="ICE_L1.png" size="26747" />
+    </image>
+    <image name="ICE_L2">
+      <file name="ICE_L2.png" size="26276" />
+    </image>
+    <image name="ICE_L3">
+      <file name="ICE_L3.png" size="25980" />
+    </image>
+    <image name="ICE_L4">
+      <file name="ICE_L4.png" size="26709" />
+    </image>
+    <image name="ICE_L5">
+      <file name="ICE_L5.png" size="26213" />
+    </image>
+    <image name="ICE_L6">
+      <file name="ICE_L6.png" size="25960" />
+    </image>
+    <image name="ICE_L7">
+      <file name="ICE_L7.png" size="26797" />
+    </image>
+    <image name="ICE_L8">
+      <file name="ICE_L8.png" size="26454" />
+    </image>
+    <image name="ICE_R1">
+      <file name="ICE_R1.png" size="26853" />
+    </image>
+    <image name="ICE_R2">
+      <file name="ICE_R2.png" size="26370" />
+    </image>
+    <image name="ICE_R3">
+      <file name="ICE_R3.png" size="26130" />
+    </image>
+    <image name="ICE_R4">
+      <file name="ICE_R4.png" size="26807" />
+    </image>
+    <image name="ICE_R5">
+      <file name="ICE_R5.png" size="26457" />
+    </image>
+    <image name="ICE_R6">
+      <file name="ICE_R6.png" size="26111" />
+    </image>
+    <image name="ICE_R7">
+      <file name="ICE_R7.png" size="26989" />
+    </image>
+    <image name="ICE_R8">
+      <file name="ICE_R8.png" size="26602" />
+    </image>
+    <image name="cart">
+      <file name="cart.png" size="65461" />
+    </image>
+    <image name="cage_door01">
+      <file name="cage_door01.png" size="10040" />
+    </image>
+    <image name="cage_door02">
+      <file name="cage_door02.png" size="11184" />
+    </image>
+    <image name="gazal">
+      <file name="gazal.png" size="12452" />
+    </image>
+    <image name="gazal_run01">
+      <file name="gazal_run01.png" size="9731" />
+    </image>
+    <image name="gazal_run02">
+      <file name="gazal_run02.png" size="8774" />
+    </image>
+    <image name="gazal_run03">
+      <file name="gazal_run03.png" size="9731" />
+    </image>
+    <image name="gazal_stand">
+      <file name="gazal_stand.png" size="8774" />
+    </image>
+    <image name="key">
+      <file name="key.png" size="6281" />
+    </image>
+    <image name="key_hiden">
+      <file name="key_hiden.png" size="6170" />
+    </image>
+    <image name="IceRock">
+      <file name="IceRock.png" size="16713" />
+    </image>
+    <image name="caveGate">
+      <file name="caveGate.png" size="34049" />
+    </image>
+    <image name="DangerRock001">
+      <file name="DangerRock001.png" size="8722" />
+    </image>
+    <image name="DangerRock002">
+      <file name="DangerRock002.png" size="12691" />
+    </image>
+    <image name="DangerRock003">
+      <file name="DangerRock003.png" size="7940" />
+    </image>
+    <image name="ExtraRockSmall">
+      <file name="ExtraRockSmall.png" size="4499" />
+    </image>
+    <image name="ExtraRockBig">
+      <file name="ExtraRockBig.png" size="7567" />
+    </image>
+    <image name="IceBall-02">
+      <file name="IceBall-02.png" size="12404" />
+    </image>
+    <image name="IceBall-03">
+      <file name="IceBall-03.png" size="12526" />
+    </image>
+    <image name="IceBall-04">
+      <file name="IceBall-04.png" size="9496" />
+    </image>
+    <image name="IceBall-05">
+      <file name="IceBall-05.png" size="5939" />
+    </image>
+    <image name="Jump_botton">
+      <file name="Jump_botton.png" size="6961" />
+    </image>
+    <image name="Left_botton">
+      <file name="Left_botton.png" size="11882" />
+    </image>
+    <image name="Right_botton">
+      <file name="Right_botton.png" size="9086" />
+    </image>
+    <image name="play_again">
+      <file name="play_again.png" size="64448" />
+    </image>
+    <image name="SantaOpen">
+      <file name="SantaOpen.png" size="26724" />
+    </image>
+    <image name="1">
+      <file name="1.png" size="3573" />
+    </image>
+    <image name="2">
+      <file name="2.png" size="4011" />
+    </image>
+    <image name="3">
+      <file name="3.png" size="4097" />
+    </image>
+    <image name="4">
+      <file name="4.png" size="4157" />
+    </image>
+    <image name="5">
+      <file name="5.png" size="4173" />
+    </image>
+    <image name="6">
+      <file name="6.png" size="4171" />
+    </image>
+    <image name="7">
+      <file name="7.png" size="3916" />
+    </image>
+    <image name="8">
+      <file name="8.png" size="3926" />
+    </image>
+    <image name="9">
+      <file name="9.png" size="4271" />
+    </image>
+    <image name="10">
+      <file name="10.png" size="4478" />
+    </image>
+    <image name="11">
+      <file name="11.png" size="3757" />
+    </image>
+    <image name="12">
+      <file name="12.png" size="4639" />
+    </image>
+    <image name="13">
+      <file name="13.png" size="4633" />
+    </image>
+    <image name="14">
+      <file name="14.png" size="4695" />
+    </image>
+    <image name="15">
+      <file name="15.png" size="4708" />
+    </image>
+    <image name="16">
+      <file name="16.png" size="4678" />
+    </image>
+    <image name="17">
+      <file name="17.png" size="4515" />
+    </image>
+    <image name="18">
+      <file name="18.png" size="4430" />
+    </image>
+    <image name="19">
+      <file name="19.png" size="4637" />
+    </image>
+    <image name="20">
+      <file name="20.png" size="4576" />
+    </image>
+    <image name="pause">
+      <file name="pause.png" size="9052" />
+    </image>
+    <image name="areyousurebg">
+      <file name="areyousurebg.png" size="27675" />
+    </image>
+    <image name="play">
+      <file name="play.png" size="30855" />
+    </image>
+    <image name="playpressed">
+      <file name="playpressed.png" size="30147" />
+    </image>
+    <image name="options2">
+      <file name="options2.png" size="33156" />
+    </image>
+    <image name="options2pressed">
+      <file name="options2pressed.png" size="31569" />
+    </image>
+    <image name="nopressed">
+      <file name="nopressed.png" size="17807" />
+    </image>
+    <image name="no">
+      <file name="no.png" size="21690" />
+    </image>
+    <image name="yes">
+      <file name="yes.png" size="22013" />
+    </image>
+    <image name="yespressed">
+      <file name="yespressed.png" size="19123" />
+    </image>
+    <image name="credits">
+      <file name="credits.png" size="28414" />
+    </image>
+    <image name="creditspressed">
+      <file name="creditspressed.png" size="27498" />
+    </image>
+    <image name="resetgame">
+      <file name="resetgame.png" size="27264" />
+    </image>
+    <image name="restegamepressed">
+      <file name="restegamepressed.png" size="26947" />
+    </image>
+    <image name="soundsoff">
+      <file name="soundsoff.png" size="27052" />
+    </image>
+    <image name="soundsoffpressed">
+      <file name="soundsoffpressed.png" size="26503" />
+    </image>
+    <image name="soundsonpressed">
+      <file name="soundsonpressed.png" size="25686" />
+    </image>
+    <image name="musicoff">
+      <file name="musicoff.png" size="26749" />
+    </image>
+    <image name="soundson">
+      <file name="soundson.png" size="26133" />
+    </image>
+    <image name="musiconpressed">
+      <file name="musiconpressed.png" size="25941" />
+    </image>
+    <image name="musicoffpressed">
+      <file name="musicoffpressed.png" size="25936" />
+    </image>
+    <image name="musicon">
+      <file name="musicon.png" size="26752" />
+    </image>
+    <image name="backbutton">
+      <file name="backbutton.png" size="9717" />
+    </image>
+    <image name="backbuttonpressed">
+      <file name="backbuttonpressed.png" size="9690" />
+    </image>
+    <image name="N">
+      <file name="N.png" size="20988" />
+    </image>
+    <image name="introImage">
+      <file name="introImage.png" size="406102" />
+    </image>
+    <image name="snow_man01">
+      <file name="snow_man01.png" size="23735" />
+    </image>
+    <image name="snow_man02">
+      <file name="snow_man02.png" size="30528" />
+    </image>
+    <image name="LongWood">
+      <file name="LongWood.png" size="5323" />
+    </image>
+    <image name="reset">
+      <file name="reset.png" size="6386" />
+    </image>
+    <image name="menu_small">
+      <file name="menu_small.png" size="5617" />
+    </image>
+    <image name="pause_small">
+      <file name="pause_small.png" size="5738" />
+    </image>
+    <image name="Movment_arraw">
+      <file name="Movment_arraw.png" size="19309" />
+    </image>
+    <image name="Button">
+      <file name="Button.png" size="12103" />
+    </image>
+    <image name="SantaLake">
+      <file name="SantaLake.png" size="24929" />
+    </image>
+    <image name="CaveRock001">
+      <file name="CaveRock001.png" size="8577" />
+    </image>
+    <image name="Knifes">
+      <file name="Knifes.png" size="24038" />
+    </image>
+    <image name="Rema7">
+      <file name="Rema7.png" size="13267" />
+    </image>
+    <image name="Chain">
+      <file name="Chain.png" size="6416" />
+    </image>
+    <image name="Gear">
+      <file name="Gear.png" size="20785" />
+    </image>
+    <image name="GearArm">
+      <file name="GearArm.png" size="6148" />
+    </image>
+    <image name="GearBase">
+      <file name="GearBase.png" size="13044" />
+    </image>
+    <image name="GearShift">
+      <file name="GearShift.png" size="8384" />
+    </image>
+    <image name="GreenLamp">
+      <file name="GreenLamp.png" size="6073" />
+    </image>
+    <image name="RedLamp">
+      <file name="RedLamp.png" size="6058" />
+    </image>
+    <image name="SwichBase">
+      <file name="SwichBase.png" size="5081" />
+    </image>
+    <image name="KnifsWithRoof">
+      <file name="KnifsWithRoof.png" size="33324" />
+    </image>
+    <image name="Clock">
+      <file name="Clock.png" size="5977" />
+    </image>
+    <image name="CartWithSanta">
+      <file name="CartWithSanta.png" size="73147" />
+    </image>
+    <image name="heart">
+      <file name="heart.png" size="4174" />
+    </image>
+    <image name="Rope">
+      <file name="Rope.png" size="8598" />
+    </image>
+    <image name="CartKnife">
+      <file name="CartKnife.png" size="14813" />
+    </image>
+    <image name="JumpB">
+      <file name="JumpB.png" size="7304" />
+    </image>
+    <image name="LeftB">
+      <file name="LeftB.png" size="7327" />
+    </image>
+    <image name="RightB">
+      <file name="RightB.png" size="7284" />
+    </image>
+    <image name="GiftThisGame">
+      <file name="GiftThisGame.png" size="9635" />
+    </image>
+    <image name="Rate">
+      <file name="Rate.png" size="17744" />
+    </image>
+    <image name="No-1">
+      <file name="No-1.png" size="10210" />
+    </image>
+    <image name="menu_bg-1">
+      <file name="menu_bg-1.png" size="639946" />
+    </image>
+    <image name="Eda_yoru">
+      <file name="Eda_yoru.png" size="4535" />
+    </image>
+    <image name="stage_1_A">
+      <file name="stage_1_A.png" size="282537" />
+    </image>
+    <image name="stage_1_B">
+      <file name="stage_1_B.png" size="183363" />
+    </image>
+    <image name="stage_1_C">
+      <file name="stage_1_C.png" size="226585" />
+    </image>
+    <image name="stage_1_D">
+      <file name="stage_1_D.png" size="232755" />
+    </image>
+    <image name="stage_2_A">
+      <file name="stage_2_A.png" size="267671" />
+    </image>
+    <image name="stage_2_B">
+      <file name="stage_2_B.png" size="154600" />
+    </image>
+    <image name="stage_2_C">
+      <file name="stage_2_C.png" size="313307" />
+    </image>
+    <image name="stage_2_D">
+      <file name="stage_2_D.png" size="247969" />
+    </image>
+    <image name="Stage4-A">
+      <file name="Stage4-A.png" size="428272" />
+    </image>
+    <image name="Stage4-B">
+      <file name="Stage4-B.png" size="403970" />
+    </image>
+    <image name="Stage4-C">
+      <file name="Stage4-C.png" size="399991" />
+    </image>
+    <image name="Stage4-D">
+      <file name="Stage4-D.png" size="417447" />
+    </image>
+    <image name="Stage3-A">
+      <file name="Stage3-A.png" size="264421" />
+    </image>
+    <image name="Stage3-B">
+      <file name="Stage3-B.png" size="237491" />
+    </image>
+    <image name="Stage3-C">
+      <file name="Stage3-C.png" size="245122" />
+    </image>
+    <image name="Stage3-D">
+      <file name="Stage3-D.png" size="263837" />
+    </image>
+    <image name="Stage5-A">
+      <file name="Stage5-A.png" size="115961" />
+    </image>
+    <image name="Stage5-B">
+      <file name="Stage5-B.png" size="125657" />
+    </image>
+    <image name="Stage5-D">
+      <file name="Stage5-D.png" size="112824" />
+    </image>
+    <image name="Stage5-C">
+      <file name="Stage5-C.png" size="106624" />
+    </image>
+    <image name="moon">
+      <file name="moon.png" size="18870" />
+    </image>
+    <image name="Stage6-A">
+      <file name="Stage6-A.png" size="106994" />
+    </image>
+    <image name="Stage6-B">
+      <file name="Stage6-B.png" size="109950" />
+    </image>
+    <image name="Stage6-C">
+      <file name="Stage6-C.png" size="95870" />
+    </image>
+    <image name="Stage6-D">
+      <file name="Stage6-D.png" size="67035" />
+    </image>
+    <image name="Stage7-A">
+      <file name="Stage7-A.png" size="321347" />
+    </image>
+    <image name="Stage7-B">
+      <file name="Stage7-B.png" size="292599" />
+    </image>
+    <image name="Stage7-D">
+      <file name="Stage7-D.png" size="283374" />
+    </image>
+    <image name="Stage7-C">
+      <file name="Stage7-C.png" size="290945" />
+    </image>
+    <image name="coin_silver">
+      <file name="coin_silver.png" size="14320" />
+    </image>
+    <image name="coin_gold">
+      <file name="coin_gold.png" size="15339" />
+    </image>
+    <image name="coin_red">
+      <file name="coin_red.png" size="15640" />
+    </image>
+    <image name="Back_Cian">
+      <file name="Back_Cian.png" size="2940" />
+    </image>
+    <image name="Stage8-A">
+      <file name="Stage8-A.png" size="77079" />
+    </image>
+    <image name="Stage8-C">
+      <file name="Stage8-C.png" size="103897" />
+    </image>
+    <image name="Stage8-D">
+      <file name="Stage8-D.png" size="45375" />
+    </image>
+    <image name="フォーク">
+      <file name="フォーク.png" size="23630" />
+    </image>
+    <image name="Stage8-B">
+      <file name="Stage8-B.png" size="145804" />
+    </image>
+    <image name="CapKeki">
+      <file name="CapKeki.png" size="87686" />
+    </image>
+    <image name="pokki">
+      <file name="pokki.png" size="8359" />
+    </image>
+    <image name="Stage9-A">
+      <file name="Stage9-A.png" size="33494" />
+    </image>
+    <image name="Stage9-B">
+      <file name="Stage9-B.png" size="31122" />
+    </image>
+    <image name="Stage9-C">
+      <file name="Stage9-C.png" size="19366" />
+    </image>
+    <image name="Stage9-D">
+      <file name="Stage9-D.png" size="24244" />
+    </image>
+    <image name="pokki-yoko">
+      <file name="pokki-yoko.png" size="7572" />
+    </image>
+    <image name="Stage10-A">
+      <file name="Stage10-A.png" size="105231" />
+    </image>
+    <image name="Stage10-B">
+      <file name="Stage10-B.png" size="101645" />
+    </image>
+    <image name="Stage10-C">
+      <file name="Stage10-C.png" size="103011" />
+    </image>
+    <image name="Stage10-D">
+      <file name="Stage10-D.png" size="94456" />
+    </image>
+    <image name="Stage10-bg">
+      <file name="Stage10-bg.png" size="4976" />
+    </image>
+    <image name="Worp">
+      <file name="Worp.png" size="24594" />
+    </image>
+    <image name="Stage11-A">
+      <file name="Stage11-A.png" size="54504" />
+    </image>
+    <image name="Stage11-B">
+      <file name="Stage11-B.png" size="133966" />
+    </image>
+    <image name="Stage11-C">
+      <file name="Stage11-C.png" size="164040" />
+    </image>
+    <image name="Stage11-D">
+      <file name="Stage11-D.png" size="89324" />
+    </image>
+    <image name="Ame_star">
+      <file name="Ame_star.png" size="7151" />
+    </image>
+    <image name="Ame-Pink">
+      <file name="Ame-Pink.png" size="7113" />
+    </image>
+    <image name="Ame-Green">
+      <file name="Ame-Green.png" size="7655" />
+    </image>
+    <image name="Stage12-A">
+      <file name="Stage12-A.png" size="141485" />
+    </image>
+    <image name="Stage12-B">
+      <file name="Stage12-B.png" size="123074" />
+    </image>
+    <image name="Stage12-C">
+      <file name="Stage12-C.png" size="119364" />
+    </image>
+    <image name="Stage12-D">
+      <file name="Stage12-D.png" size="69788" />
+    </image>
+    <image name="Stage12-bg">
+      <file name="Stage12-bg.png" size="2808" />
+    </image>
+    <image name="Stage13-A">
+      <file name="Stage13-A.png" size="190221" />
+    </image>
+    <image name="Stage13-B">
+      <file name="Stage13-B.png" size="241910" />
+    </image>
+    <image name="Stage13-C">
+      <file name="Stage13-C.png" size="36046" />
+    </image>
+    <image name="Stage13-D">
+      <file name="Stage13-D.png" size="199688" />
+    </image>
+    <image name="kumo">
+      <file name="kumo.png" size="2119" />
+    </image>
+    <image name="Stage14-A">
+      <file name="Stage14-A.png" size="91347" />
+    </image>
+    <image name="Stage14-B">
+      <file name="Stage14-B.png" size="71264" />
+    </image>
+    <image name="Stage14-C">
+      <file name="Stage14-C.png" size="47892" />
+    </image>
+    <image name="Stage14-D">
+      <file name="Stage14-D.png" size="66534" />
+    </image>
+    <image name="kaminari">
+      <file name="kaminari.png" size="4563" />
+    </image>
+    <image name="kaminarisama_2">
+      <file name="kaminarisama_2.png" size="3935" />
+    </image>
+    <image name="kaminarisama_1">
+      <file name="kaminarisama_1.png" size="3960" />
+    </image>
+    <image name="Stage16-A">
+      <file name="Stage16-A.png" size="122750" />
+    </image>
+    <image name="Stage16-B">
+      <file name="Stage16-B.png" size="107712" />
+    </image>
+    <image name="Stage16-C">
+      <file name="Stage16-C.png" size="98142" />
+    </image>
+    <image name="Stage16-D">
+      <file name="Stage16-D.png" size="36938" />
+    </image>
+  </images>
+  <behaviors>
+    <file name="1.behavior" />
+    <file name="2.behavior" />
+  </behaviors>
+</assets>

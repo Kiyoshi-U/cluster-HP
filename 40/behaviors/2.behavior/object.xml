@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<behavior id="id644330" class="ChangeAttributeAction" enabled="" GSCVersion="0.10.0" PGFVersion="0.19">
+  <attributes>
+    <text id="name">Change Attribute</text>
+    <text id="bundleName">ChangeAttribute.behavior</text>
+    <text id="targetAttribute">self.attributes.position.y</text>
+    <text id="RHS">
+      <expression>
+        <reference keypath="self.attributes.position.y" />
+        <string>+(</string>
+        <reference keypath="self.attributes.size.height" />
+        <string>/4)</string>
+      </expression>
+    </text>
+  </attributes>
+</behavior>
